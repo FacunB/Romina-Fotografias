@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+main {
+	height:100%;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2c2c2c;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Raleway', serif;
+	color: #2c2c2c;
+	font-size: 140%;
+	line-height: 80%;
+	text-align: justify;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+
+}
+
+#intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(img/fotointro2.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;	
+}
+
+.content{
+	max-width: 600px;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 300%;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 10px, 10px 500px #000;
+}
+
+.content p{
+	color: #FFF;
+}
+
+.inner {
+max-width: 600px;
+margin: auto;
+font-size: 180%;
+line-height: 1.6;
+padding: 10px;
+}
+
+/*---Barra Nav---*/
+
+nav {
+float: left;
+padding: 5% 5% 0 0;
+height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	float: left;
+}
+
+nav ul li {
+	font-family: 'Raleway', serif;
+	font-size: 120%;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+nav ul, nav:active ul {
+	display: none;	
+	left: 45px;
+	top: 60px;
+	padding: 8px 0;
+	width: 20%;
+	z-index: 1000;
+}
+
+nav li {
+	width: 100%;
+	padding: 8px 0 10px 7px;
+	margin: 0;
+}
+
+nav:hover ul {
+	display: block;
+	position: absolute;
+}
+
+#menu-icon {
+	width: 30px;
+	height: 26px;
+	background: url(img/nav-icon.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+
+/*---Barra Nav fin --*/
+
+.left-col {
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+
+#carouselIndicators {
+	margin: 2%;
+}
+
+
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+
+}
+
+.contact a {
+	color: #2c2c2c;
+	text-decoration: none;
+}
+
+/*--.break {
+	display: none;
+}
+*/
+
+.clearfix{
+	clear: both;
+	height: 3%;
+}
+
+.parallax {
+	background-image: url(img/fotointro3.jpg);
+	min-height: 280px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+
+}
+.parrallax-inner {
+	padding-top: 17%;
+}
+
+/*---- Iconos ---*/
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	
+  }
+  
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: white;
+	color: black;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+	background: white;
+	color: black;
+  }
+
