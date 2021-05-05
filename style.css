@@ -139,6 +139,11 @@ nav:hover ul {
 
 /*---Barra Nav fin --*/
 
+.row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .left-col {
 	width: 60%;
 	float: left;
@@ -184,6 +189,7 @@ nav:hover ul {
   	background-position: center;
   	background-repeat: no-repeat;
  	background-size: cover;
+	 opacity: .7;
 
 }
 .parrallax-inner {
@@ -218,3 +224,12 @@ nav:hover ul {
 	color: black;
   }
 
+  .social {
+	  list-style-type: none;
+	  text-align: center;	  
+  }
+
+  .social li {
+	  display: inline;
+	  
+  }
